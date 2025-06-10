@@ -3,32 +3,99 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
-about: []
+about:
+- name: Brain Vasculature
+  schemaKey: GenericType
+- name: Skull
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'We thank Rodolfo Figueroa-Mercado and Marissa Moreno for assisting
+  with the sample preparations and Rui Liu for advice on optical design. '
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Rinehart, Duane (2025) Stitched data at native resolution from "Spatiotemporal
-  focusing enables all-optical in situ histology of heterogeneous tissue" (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001460/draft
+citation: Ji, Xiang; Huang, Sincheng; Friedman, Beth; Kleinfeld, David (2025) Stitched
+  data at native resolution from "Spatiotemporal focusing enables all-optical in situ
+  histology of heterogeneous tissue" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001460/draft
 contributor:
+- affiliation:
+  - identifier: https://ror.org/0168r3w48
+    name: University of California, San Diego
+    schemaKey: Affiliation
+  email: xj0996@princeton.edu
+  identifier: 0000-0001-8595-6009
+  includeInCitation: true
+  name: Ji, Xiang
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:DataCollector
+  - dcite:FormalAnalysis
+  - dcite:Methodology
+  - dcite:Software
+  - dcite:Visualization
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0168r3w48
+    name: University of California, San Diego
+    schemaKey: Affiliation
+  email: sih045@ucsd.edu
+  identifier: 0009-0002-9715-2870
+  includeInCitation: true
+  name: Huang, Sincheng
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:FormalAnalysis
+  - dcite:Methodology
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0168r3w48
+    name: University of California, San Diego
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Friedman, Beth
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 - affiliation: []
   email: duane.rinehart@gmail.com
-  includeInCitation: true
+  includeInCitation: false
   name: Rinehart, Duane
   roleName:
-  - dcite:ContactPerson
+  - dcite:DataManager
+  - dcite:DataCurator
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0168r3w48
+    name: University of California, San Diego
+    schemaKey: Affiliation
+  email: dk@physics.ucsd.edu
+  identifier: 0000-0001-9797-4722
+  includeInCitation: true
+  name: Kleinfeld, David
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:FundingAcquisition
+  schemaKey: Person
+  url: https://neurophysics.ucsd.edu/
 dateCreated: '2025-05-22T22:28:32.291796+00:00'
-description: Stitched data at native (0.35 µm x 0.35 µm x 1.0 µm) resolution from
-  "Spatiotemporal focusing enables all-optical in situ histology of heterogeneous
-  tissue".
+description: Stitched data of skull and vasculature at native (0.35 µm x 0.35 µm x
+  1.0 µm) resolution from "Spatiotemporal focusing enables all-optical in situ histology
+  of heterogeneous tissue".
 ethicsApproval: []
 id: DANDI:001460/draft
 identifier: DANDI:001460
+keywords:
+- Vasculature
+- Skull
+- Optical Sectioning
+- Two-Photon Microscopy
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
