@@ -98,8 +98,8 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-05-22T22:28:32.291796+00:00'
-description: Stitched data of skull and vasculature at native (0.35 µm x 0.35 µm x
-  1.0 µm) resolution from "Spatiotemporal focusing enables all-optical in situ histology
+description: Stitched data of skull and vasculature at isotropic (1.0 µm x 1.0 µm
+  x 1.0 µm) resolution from "Spatiotemporal focusing enables all-optical in situ histology
   of heterogeneous tissue".
 ethicsApproval: []
 id: DANDI:001460/draft
