@@ -111,6 +111,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-05-22T22:28:32.291796+00:00'
+datePublished: '2025-07-03T18:26:15.280160+00:00'
 description: Stitched data of skull and vasculature at isotropic (1.0 µm x 1.0 µm
   x 1.0 µm) resolution from "Spatiotemporal focusing enables all-optical in situ histology
   of heterogeneous tissue".
@@ -127,6 +128,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001460/versions/draft/assets/
 name: Craniocerebral skull and vasculature stitched datasets
+publishedBy:
+  endDate: '2025-07-03T18:26:15.280160+00:00'
+  id: urn:uuid:9868a370-fc45-4253-a384-65c7e024f6d2
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-07-03T18:26:15.280160+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:7292d464-221c-41aa-a675-070920e2bf90
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
