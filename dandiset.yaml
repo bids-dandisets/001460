@@ -30,8 +30,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured: []
 citation: Ji, Xiang; Huang, Sincheng; Friedman, Beth; Kleinfeld, David (2025) Craniocerebral
-  skull and vasculature stitched datasets (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001460/draft
+  skull and vasculature stitched datasets (Version 0.250703.1826) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.001460/0.250703.1826
 contributor:
 - affiliation:
   - identifier: https://ror.org/0168r3w48
@@ -115,8 +115,9 @@ datePublished: '2025-07-03T18:26:15.280160+00:00'
 description: Stitched data of skull and vasculature at isotropic (1.0 µm x 1.0 µm
   x 1.0 µm) resolution from "Spatiotemporal focusing enables all-optical in situ histology
   of heterogeneous tissue".
+doi: 10.48324/dandi.001460/0.250703.1826
 ethicsApproval: []
-id: DANDI:001460/draft
+id: DANDI:001460/0.250703.1826
 identifier: DANDI:001460
 keywords:
 - Vasculature
@@ -126,7 +127,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001460/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001460/0.250703.1826/assets.yaml
 name: Craniocerebral skull and vasculature stitched datasets
 publishedBy:
   endDate: '2025-07-03T18:26:15.280160+00:00'
@@ -144,6 +145,6 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-url: https://dandiarchive.org/dandiset/001460/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001460/0.250703.1826
+version: 0.250703.1826
 wasGeneratedBy: []
