@@ -14,9 +14,21 @@ access:
 acknowledgement: 'We thank Rodolfo Figueroa-Mercado and Marissa Moreno for assisting
   with the sample preparations and Rui Liu for advice on optical design. '
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 88031523946
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Ji, Xiang; Huang, Sincheng; Friedman, Beth; Kleinfeld, David (2025) Craniocerebral
   skull and vasculature stitched datasets (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001460/draft
@@ -57,6 +69,7 @@ contributor:
   - identifier: https://ror.org/0168r3w48
     name: University of California, San Diego
     schemaKey: Affiliation
+  identifier: 0000-0001-9328-5241
   includeInCitation: true
   name: Friedman, Beth
   roleName:
